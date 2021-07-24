@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AppLaura from './AppLaura';
+// import { AppLaura, printSomethingElse } from './AppLaura';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppLaura />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
